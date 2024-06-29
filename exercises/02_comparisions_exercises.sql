@@ -18,7 +18,7 @@ SELECT
 FROM 
 	job_postings_fact
 WHERE 
-	job_location == 'Tampa, FL' ;
+	job_location = 'Tampa, FL' ;
 
 /* 
 COMPARISONS
@@ -38,7 +38,7 @@ SELECT
 FROM
 	job_postings_fact
 WHERE
-	job_schedule_type == 'Full-time' ;
+	job_schedule_type = 'Full-time' ;
 
 
 /* 
@@ -60,7 +60,7 @@ SELECT
 FROM
 	job_postings_fact
 WHERE NOT
-	job_schedule_type == 'Part-time' ;
+	job_schedule_type = 'Part-time' ;
 	
 /* 
 COMPARISONS
