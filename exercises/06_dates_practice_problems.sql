@@ -66,6 +66,7 @@ these postings were made in the second quarter of 2023. Use date extraction to f
 
 
 -- My Solution:
+
 SELECT
     jpf.company_id,
     cd.name

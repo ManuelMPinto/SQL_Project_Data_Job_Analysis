@@ -15,6 +15,7 @@ Only include jobs located in either:
 
 
 -- My Solution:
+
 SELECT
 	job_title_short,    
     job_location,
@@ -45,6 +46,7 @@ Get the job title, location and average yearly salary
 
 
 -- My Solution:
+
 SELECT
 	job_title AS 'Job Title', 
     job_location AS 'Job Location',
@@ -72,6 +74,7 @@ Why?
 
 
 -- My Solution:
+
 SELECT
 	project_id,
     SUM(hours_spent * hours_rate) AS project_original_cost,
@@ -95,6 +98,7 @@ Why? Understand the demand and pay for skills.
 
 
 -- My Solution:
+
 SELECT
 	sd.skill_id,
     sd.skills AS skill_name,
@@ -142,6 +146,8 @@ CREATE TABLE public.jan_2023_jobs AS
     WHERE
         EXTRACT(MONTH FROM job_posted_date) = 1
         AND EXTRACT(YEAR FROM job_posted_date) = 2023
+
+
 ;
  --February
 CREATE TABLE public.feb_2023_jobs AS 
@@ -152,6 +158,8 @@ CREATE TABLE public.feb_2023_jobs AS
     WHERE
         EXTRACT(MONTH FROM job_posted_date) = 2
         AND EXTRACT(YEAR FROM job_posted_date) = 2023
+
+
 ;
  --March
 CREATE TABLE public.mar_2023_jobs AS 
@@ -162,6 +170,7 @@ CREATE TABLE public.mar_2023_jobs AS
     WHERE
         EXTRACT(MONTH FROM job_posted_date) = 3
         AND EXTRACT(YEAR FROM job_posted_date) = 2023
+
 
 ;
 
@@ -203,6 +212,7 @@ ORDER BY
     job_count DESC
 LIMIT 5
 
+
 ;
 
 /* 
@@ -236,5 +246,6 @@ WHERE
     salary_year_avg > 70000
 ORDER BY
     quarter1_job_postings.salary_year_avg DESC
+
 
 ;

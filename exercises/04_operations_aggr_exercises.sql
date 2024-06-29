@@ -46,13 +46,17 @@ Ensure to only include job postings where a yearly salary is specified (salary_y
 
 
 -- My Solution:
+
 SELECT
     SUM(salary_year_avg) / COUNT(salary_year_avg) as average_year_salary
 FROM
 	job_postings_fact
 WHERE
 	job_work_from_home = TRUE AND
-    (salary_year_avg NOT NULL) ;
+    (salary_year_avg IS NOT NULL) 
+
+
+;
 
 
 /* 
@@ -63,12 +67,16 @@ posting offers health insurance (TRUE means it does offer health insurence).
 
 
 -- My Solution:
+
 SELECT
 	COUNT(job_title_short)
 FROM
 	job_postings_fact 
 WHERE
-	job_health_insurance = TRUE ;
+	job_health_insurance = TRUE 
+
+
+;
 
 
 

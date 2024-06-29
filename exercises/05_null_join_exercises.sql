@@ -44,6 +44,7 @@ in the job title. Use the job_postings_fact and company_dim tables for this quer
 
 
 -- My Solution:
+
 SELECT
 	jpf.company_id,
     jpf.job_title,
@@ -53,7 +54,10 @@ FROM
 INNER JOIN 
 	company_dim AS cd ON jpf.company_id = cd.company_id
 WHERE
-	jpf.job_title LIKE '%Data Scientist%' ;
+	jpf.job_title LIKE '%Data Scientist%' 
+
+
+;
 
 /* 
 Joins Practice Problem 2:
@@ -63,6 +67,7 @@ Ensure that the job is located in "New York" and offers "Health Insurance". Use 
 
 
 -- My Solution:
+
 SELECT
 	jpf.job_id,
     jpf.job_title,
@@ -79,3 +84,6 @@ INNER JOIN
 WHERE
 	jpf.job_location = 'New York'
     AND jpf.job_health_insurance = TRUE
+
+
+;

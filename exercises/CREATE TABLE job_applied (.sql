@@ -6,5 +6,8 @@ CREATE TABLE job_applied (
     cover_letter_sent BOOLEAN,
     cover_letter_file_name VARCHAR(255),
     status VARCHAR(50)
-);
+)
+
+
+;
 

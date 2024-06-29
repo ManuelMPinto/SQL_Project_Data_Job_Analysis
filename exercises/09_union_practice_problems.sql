@@ -47,4 +47,6 @@ LEFT JOIN
     skills_dim AS sd ON sd.skill_id = sjd.skill_id
 WHERE
     salary_year_avg > 70000
+
+
 ;

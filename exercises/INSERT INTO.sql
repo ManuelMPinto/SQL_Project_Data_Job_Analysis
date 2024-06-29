@@ -34,7 +34,10 @@ VALUES  (1,
         'resume_04.pdf',
         true,
         'cover_letter_02.pdf',
-        'submitted');
+        'submitted')
+
+
+;
 --ALTER TABLE is useful to Add, rename, alter and drop columns.
 ALTER TABLE job_applied
     ADD contact VARCHAR(50);

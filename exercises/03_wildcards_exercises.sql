@@ -22,12 +22,16 @@ Find all job postings in the job_postings_fact where the job_title is exactly "E
 
 
 -- My solution:
+
 SELECT 
 	* 
 FROM 
 	job_postings_fact
 WHERE 
-	job_title LIKE 'Engineer %' ;
+	job_title LIKE 'Engineer %' 
+
+
+;
 
 
 -- Alias Exercise:
@@ -40,6 +44,7 @@ job_via to job_posted_site and salary_year_avg to avg_yearly_salary
 
 
 -- My solution:
+
 SELECT
 	job_id, 
     job_title_short, 
@@ -49,3 +54,6 @@ SELECT
     salary_year_avg AS avg_yearly_salary
 FROM
 	job_postings_fact
+
+
+;

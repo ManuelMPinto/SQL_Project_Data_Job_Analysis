@@ -29,6 +29,8 @@ LEFT JOIN company_counts AS cc
     ON cc.company_id = cd.company_id
 ORDER BY
     cc.company_count DESC
+
+
 ;
 
 
@@ -68,3 +70,6 @@ RIGHT JOIN company_dim AS cd
     ON jpf.company_id = cd.company_id
 ORDER BY
     count DESC
+
+
+;

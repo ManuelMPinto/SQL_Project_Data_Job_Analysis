@@ -38,7 +38,7 @@ SELECT
 FROM
 	job_postings_fact
 WHERE
-	job_schedule_type = 'Full-time' ;
+	job_schedule_type == 'Full-time' ;
 
 
 /* 
@@ -60,7 +60,7 @@ SELECT
 FROM
 	job_postings_fact
 WHERE NOT
-	job_schedule_type = 'Part-time' ;
+	job_schedule_type == 'Part-time' ;
 	
 /* 
 COMPARISONS
@@ -71,6 +71,7 @@ Only look at jobs that are not posted 'via Linkedin'.
 
 
 -- My solution:
+
 SELECT
 	job_id, 
     job_title_short, 
@@ -80,7 +81,10 @@ SELECT
 FROM
 	job_postings_fact
 WHERE NOT
-	job_via = 'via LinkedIn' ;
+	job_via = 'via LinkedIn' 
+
+
+;
 
 /* 
 COMPARISONS
@@ -91,6 +95,7 @@ job_via, and salary_year_avg columns.
 
 
 -- My solution:
+
 SELECT
 	job_id, 
     job_title_short, 
@@ -102,7 +107,10 @@ FROM
 WHERE 
 	salary_year_avg > 65000
 ORDER BY
-	salary_year_avg ASC ;
+	salary_year_avg ASC 
+
+
+;
 
 /* 
 COMPARISONS
@@ -113,6 +121,7 @@ job_via, and salary_year_avg columns.
 
 
 -- My solution:
+
 SELECT
 	job_id, 
     job_title_short, 
@@ -124,7 +133,10 @@ FROM
 WHERE
 	salary_year_avg > 55000
 ORDER BY
-	salary_year_avg ASC ;
+	salary_year_avg ASC 
+
+
+;
 
 /* 
 COMPARISONS
@@ -135,6 +147,7 @@ job_via, and salary_year_avg columns.
 
 
 -- My solution:
+
 SELECT
 	job_id, 
     job_title_short, 
@@ -147,3 +160,6 @@ WHERE
 	salary_year_avg < 110000
 ORDER BY
 	salary_year_avg DESC
+
+
+;
