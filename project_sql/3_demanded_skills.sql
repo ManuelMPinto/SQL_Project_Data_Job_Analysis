@@ -1,7 +1,7 @@
 /*
 Question: What are the most in_demand skills for my role?
     -  Join job postings similar to query 2
-    -  Identify the top 10 in-demand skills for data/business analyst.
+    -  Identify the top  in-demand skills for data/business analyst.
     -  Focus on all job postings.
 */
 
