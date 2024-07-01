@@ -39,7 +39,7 @@ Tableau is the third most common skill, listed 7 times.
 Other skills like R (5 times), Excel (4 times), Pandas (3 times) and Snowflake (3 times) show varying number of demand.
 
 -- **Results as .json:** --
-
+ 
 [
   {
     "job_id": 552322,
