@@ -1,2 +1,3 @@
 TO DO: Edit this later
-|Testing | Test | Tester |
+| Testing | Test | Tester |
+| ------- | --------| ------- |
