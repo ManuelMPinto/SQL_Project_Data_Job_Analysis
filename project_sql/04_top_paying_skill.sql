@@ -19,4 +19,4 @@ GROUP BY
     skills
 ORDER BY
     skill_average_salary DESC
-LIMIT 15
+LIMIT 10
