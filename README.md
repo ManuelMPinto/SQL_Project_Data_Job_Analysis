@@ -253,7 +253,7 @@ The breakdown of the highest paying skills for **Data/Business Analysts**:
 
 
 # What I Learned
-With this project and all the exercises done located over on the [exercises folder](exercises), I further improved on the basics I learned in the Google Data Analyst Certificate:
+With this project and all the exercises done located over on the [exercises folder](https://github.com/ManuelMPinto/SQL_Project_Data_Job_Analysis/blob/1c62c1853a0759469f62a194e341640246f22ac7/exercises), I further improved on the basics I learned in the Google Data Analyst Certificate:
 - **Complex Query Building:** touched new concepts, new functions and ways of achieving the results I want in more complex ways;
 - **Analytical Thinking:** puzzle-solving my way to finding answers to questions about this particular set and bringing forward insight over it all.
 - **Tableau Practice:** further explored Tableau to create some visualizations about the data.
