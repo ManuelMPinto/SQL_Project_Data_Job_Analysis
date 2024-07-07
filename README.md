@@ -56,7 +56,7 @@ Breakdown of the top data business and data analyst jobs in 2023:
 - **Job Title Diversity:** Its also noticeable that there's a lot of different names for positions specialized within data analytics.
 - **Job Location:** Even though the query was presenting results for remote positions as well as positions in Portugal, in the top-payed positions there isn't a single one located in Portugal, which reflects the low-income when compared with other countries.
 
-![Top-Paying Roles](assets\query_1.png)
+![Top-Paying Roles](https://github.com/ManuelMPinto/SQL_Project_Data_Job_Analysis/blob/1c62c1853a0759469f62a194e341640246f22ac7/assets/query_1.png)
 *Bar graph to present the salary of the top 15 salaries for data/business analysts; Visualization made using Tableau.*
 
 
@@ -104,7 +104,7 @@ Breaking down the result from the query, the most demanded skills for data analy
 
 Other skills like R (2 times) Pandas (2 times) are less demanded, followed by all the others with one listing each.
 
-![Skills in Top-Paying Roles](assets\query_2.png)
+![Skills in Top-Paying Roles](https://github.com/ManuelMPinto/SQL_Project_Data_Job_Analysis/blob/1c62c1853a0759469f62a194e341640246f22ac7/assets/query_2.png)
 *Bar graph to present the count of times each skill appears in the top 10 salaries for data/business analysts; Visualization made using Tableau.*
 
 ### 3. Most demanded skills
