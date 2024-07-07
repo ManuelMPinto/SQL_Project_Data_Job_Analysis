@@ -1,7 +1,7 @@
 # Introduction
 📊 Using a job market dataset consisting of job postings for various positions. Focusing specifically on data analyst positions, this project looks to explore the top-paying jobs, the most demanded skills and which ones combine high demand and high salary in the field of data analytics.
 
-🔎 For the SQL queries, check them out here: [project_sql folder](/project_sql/)
+🔎 For the SQL queries, check them out [here](/project_sql/):
 
 
 
