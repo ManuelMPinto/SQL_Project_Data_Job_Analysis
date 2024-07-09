@@ -265,7 +265,7 @@ With this project and all the exercises done located over on the [exercises fold
 From the analysis, generally we can conclude:
 1. **Top-Paying Jobs:** All the highest-paying positions are remote, with positions in Portugal being considerably less compensated.
 2. **Skills for Top-Paying Jobs:** High-paying jobs require knowledge in SQL, further highlighting the importance in being proficient in this skill.
-3. **Most Demanded Skills:**The most sought out skill is also SQL, again making it an essential skill to learn for job-seekers.
+3. **Most Demanded Skills:** The most sought out skill is also SQL, again making it an essential skill to learn for job-seekers.
 4. **Skills With Highest Salaries**: The best compensated skills are very specialized probably because of the lack of people available to use them effectively.
 5. **Optimal Skills:** As highlighted in the previous bullet-points, SQL is outstandingly the most-optimal skill to learn, combining a high-demand and high salary.
 
